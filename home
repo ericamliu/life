@@ -11,14 +11,14 @@
     <title>E & V</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="Jumbotron%20Template%20for%20Bootstrap_files/bootstrap.css" rel="stylesheet">
+    <link href="files/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="Jumbotron%20Template%20for%20Bootstrap_files/jumbotron.css" rel="stylesheet">
+    <link href="files/jumbotron.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="Jumbotron%20Template%20for%20Bootstrap_files/ie-emulation-modes-warning.js"></script>
+    <script src="files/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -49,18 +49,29 @@
 		<li><a href="#">Learn</a></li>
 		<li><a href="#">Adventures</a></li>
       </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	  <li><a href="#">Sign Up</a></li>
+		<li><button class="btn btn-default">Login</button></li>
+		<div style="border-left:1px solid #000;height:15px"></div>
+	</ul>
     </div><!-- /.navbar-collapse -->
       </div>
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
+      <div class="container marketing">
         <h1 style="color: #009900;">Welcome Home.</h1>
         <p style="color: white;">I'm glad you're here :)</p>
         <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>-->
       </div>
     </div>
+	
+<DIV class="row featurette">
+<DIV class="col-md-7">
+<H2 class="featurette-heading" style="text-align: left;">First featurette heading. <SPAN class="text-muted">It'll 
+blow your mind.</SPAN></H2>
+</div>
 
     <div class="container" style="text-align: center;">
       <!-- Example row of columns -->
@@ -87,7 +98,18 @@
       </div>
 
       <hr>
-
+<DIV class="row featurette">
+<DIV class="col-md-7">
+<H2 class="featurette-heading" style="text-align: left;">First featurette heading. <SPAN class="text-muted">It'll 
+blow your mind.</SPAN></H2>
+<P class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum 
+id ligula porta felis euismod semper. Praesent commodo cursus magna, vel 
+scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</P></DIV>
+<DIV class="col-md-5"><IMG class="featurette-image img-responsive" alt="Generic placeholder image" 
+data-src="holder.js/500x500/auto">
+</DIV>
+</DIV>
+<HR class="featurette-divider">
       <footer>
         <p>© Company 2014</p>
       </footer>
