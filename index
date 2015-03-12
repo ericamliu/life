@@ -48,11 +48,11 @@
         <li><a href="#">Activity</a></li>
 		<li><a href="#">Learn</a></li>
 		<li><a href="#">Adventures</a></li>
+    <li><a href="vince.html">Vince</a></li>
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
 	  <li><a href="#">Sign Up</a></li>
-		<li><button class="btn btn-default">Login</button></li>
-		<div style="border-left:1px solid #000;height:15px"></div>
+		<li><button class="btn btn-default" style="position: relative; top: 5px;">Login</button></li>
 	</ul>
     </div><!-- /.navbar-collapse -->
       </div>
@@ -60,42 +60,47 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container marketing">
-        <h1 style="color: #009900;">Welcome Home.</h1>
-        <p style="color: white;">I'm glad you're here :)</p>
+      <div class="container marketing" style="margin-left: 25px; margin-top: 25px;">
+        <h1 style="color: #ffffff; font-weight: bold; padding: 0px; margin: 0;">Welcome Home.</h1>
+        <p style="color: #AEAEC0; margin-left: 10px;">I'm glad you're here</p>
         <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>-->
       </div>
     </div>
 	
-<DIV class="row featurette">
-<DIV class="col-md-7">
-<H2 class="featurette-heading" style="text-align: left;">First featurette heading. <SPAN class="text-muted">It'll 
-blow your mind.</SPAN></H2>
-</div>
 
-    <div class="container" style="text-align: center;">
+    <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-6">
-		<div style="width: 100px; height: 100px; border-radius: 50%; background: black; margin: 0 auto;" alt="hi"></div>
-          <h2>Erica</h2>
-		  	<span class="speech-triangle"></span>
-			<div class="bubble">
-				<p>What shall we eat for dinner dear?</p>
-			</div>
+		  <div class="col-md-6">
+		 	 <h1 style="text-align: left; padding: 0px; margin: 0">Friday // March 6, 2015</h1>
+		 	 What's on your mind?
+			 <input type="text" name="status" placeholder="Pizza!"></input>
+		 	 <button class="btn btn-primary">Submit</button>
+		 </div>
 
-        </div>
-        <div class="col-md-6">
-		<div style="width: 100px; height: 100px; border-radius: 50%; background: black; margin: 0 auto;" alt="hi"></div>
-          <h2>Vince</h2>
-		  	<span class="speech-triangle"></span>
+  </div>
+  <div class="row"style="text-align: center;">
+        <div class="col-md-6 special">
+			<div class="col-md-2">
+	<img style="height: 100px; width: 100px; border-radius: 50%; background-color: black;" src="images/vince.jpg">
+          <h3 style="font-weight: bold">Vince</h3>
+	  </div><!--End col-md-2-->
+	  <div class="col-md-10">
+		  	<!--<span class="speech-triangle"></span>-->
 			<div class="bubble">
-				<p>Bein' a fool all around town. </p>
+				<p style="font-weight: bold;"style="float: left">Can you get me your pliers? </p>
 			</div>
-          <!--<p><a class="btn btn-default" href="#" role="button">View details »</a></p>-->
-       </div>
-
-      </div>
+		</div><!--End col-md-10-->
+		</div>
+    <div class="col-md-6 special">
+	<img style="height: 100px; width: 100px; border-radius: 50%; background-color: black;" src="images/erica.jpg">
+      <h3 style="font-weight: bold;">Erica</h3>
+	  	<span class="speech-triangle2"></span>
+		<div class="bubble">
+			<p style="font-weight: bold;">Will be back at 4pm today</p>
+		</div>
+    </div>
+</div>
 
       <hr>
 <DIV class="row featurette">
@@ -106,7 +111,7 @@ blow your mind.</SPAN></H2>
 id ligula porta felis euismod semper. Praesent commodo cursus magna, vel 
 scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</P></DIV>
 <DIV class="col-md-5"><IMG class="featurette-image img-responsive" alt="Generic placeholder image" 
-data-src="holder.js/500x500/auto">
+src="images/cover.jpg" style="background-color: black;">
 </DIV>
 </DIV>
 <HR class="featurette-divider">
@@ -119,10 +124,10 @@ data-src="holder.js/500x500/auto">
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="Jumbotron%20Template%20for%20Bootstrap_files/jquery.js"></script>
-    <script src="Jumbotron%20Template%20for%20Bootstrap_files/bootstrap.js"></script>
+    <script src="files/jquery.js"></script>
+    <script src="files/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="Jumbotron%20Template%20for%20Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="files/ie10-viewport-bug-workaround.js"></script>
   
 
 </body></html>
