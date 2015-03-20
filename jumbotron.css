@@ -1,0 +1,59 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+
+}
+ul.a {
+	list-style-type: square;
+	padding-left:10px;
+	padding-top: 0px;
+}
+
+.special {
+	padding: 15px;
+background-color: #BCBCCD;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+.speech-triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid;
+  border-top: 25px solid transparent;
+  /*border-left: 25px solid transparent;*/
+  color: #eee;
+}
+.speech-triangle2 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-bottom: 25px solid;
+    border-right: 25px solid transparent;
+    /*border-top: 25px solid transparent;*/
+    border-left: 25px solid transparent;
+    color: #eee;
+}
+.box {
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+	background: #eee;
+	margin: 10px auto;
+	padding: 5px 15px;
+}
+.bubble {
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+	background: #eee;
+	margin: 0px auto;
+	padding: 5px 15px;
+}
